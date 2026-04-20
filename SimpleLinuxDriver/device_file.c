@@ -7,7 +7,7 @@
 #include <linux/device.h>
 #include <linux/uaccess.h> /* copy_to_user() */
 
-static const char g_s_Hello_World_string[] = "\nHello world from kernel mode!\n";
+static const char g_s_Hello_World_string[] = "Testing our makefile system\n";
 static const ssize_t g_s_Hello_World_size = sizeof(g_s_Hello_World_string);
 
 static ssize_t device_file_read(
