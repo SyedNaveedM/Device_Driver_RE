@@ -1,0 +1,3 @@
+make
+sudo make load
+sudo cat simple-driver (in /dev folder in root)
