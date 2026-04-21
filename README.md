@@ -1,2 +1,2 @@
-# Simple Linux Driver
-Simple Linux driver (tested with 6.14 kernel)
+# Linux Device Drivers
+## Codes for different device drivers
