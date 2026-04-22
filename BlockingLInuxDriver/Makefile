@@ -55,9 +55,10 @@ run: all unload load
 	@read e c u s < busy.tmp; \
 	printf "%-20s %-12s %-8s %-10s %-10s\n" "Busy-Wait Read" $$e $$c $$u $$s
 
-	@echo "=============================================="
+	@echo "==============================================";
 	@echo ""
 
 	@rm -f block.tmp busy.tmp
+	$(MAKE) clean
 
 endif
