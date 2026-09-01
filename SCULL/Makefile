@@ -18,10 +18,10 @@ clean:
 # run kernel build system to cleanup in current directory
 	$(MAKE) -C $(BUILDSYSTEM_DIR) M=$(PWD) clean
 
-load: scull_load
-	./scull_load.sh
+load:
+	./scull_load
 
-unload: scull_unload
+unload:
 	./scull_unload.sh
 
 endif
